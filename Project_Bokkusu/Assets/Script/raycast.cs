@@ -108,6 +108,7 @@ public class raycast : MonoBehaviour
         {
                 bgm1.SetActive(false);
                 bgm2.SetActive(true);
+                GUI.SetActive(false);
                 state = 8;
                 timer = 10f;
                 audio.PlayOneShot(a11, 1);
